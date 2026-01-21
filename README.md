@@ -29,13 +29,13 @@ Highlights capabilities of local agents with SSH tooling.
 2. cd agents_workshop/sensitive_data_exfil/
 3. uv sync
 4. source .venv/bin/activate
-4. logfire auth ## if using logfire 
+5. logfire auth ## if using logfire 
 6. uv run main.py
 
 ## Usage
 
 1. Initalize and confirm your local Model is available at address for LOCAL_MODEL definition. 
-2. Initialize your SSH_CLIENT with hostname, username, and pw. Its also possible to pass these via dependencies within context windiow. 
+2. Initialize your SSH_CLIENT with hostname, username, and pw. Its also possible to pass these via dependencies within context window. 
 3. Ensure your local VM is running with ssh access available.
 4. The Exploit agent will look for sensitive files (e.g., authorized_keys, user credentials, configuration files).
 5. Extracted data is packaged and a backdoor is created to maintain simple persistence mechanism via netcat to highlight capability.
