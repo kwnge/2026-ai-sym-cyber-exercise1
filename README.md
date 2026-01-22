@@ -26,7 +26,7 @@ Highlights capabilities of local agents with SSH tooling.
 **Note Logfire requires an account to use however they have a VERY generous free tier**
 
 1. git clone https://github.com/kwnge/2026-ai-sym-cyber-exercise1.git
-2. cd agents_workshop/sensitive_data_exfil/
+2. cd 2026-ai-sym-cyber-exercise1
 3. uv sync
 4. source .venv/bin/activate
 5. logfire auth ## if using logfire 
